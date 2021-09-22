@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: GitHub Adapter
+
+server:
+  port: 8080
+
+github:
+  url: https://api.github.com
+
+logging:
+  level:
+    org:
+      zalando:
+        logbook: TRACE
